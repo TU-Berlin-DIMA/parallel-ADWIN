@@ -106,7 +106,7 @@ public class Microbenchmark {
 
     @TearDown( Level.Iteration )
     public void teardownIteration() {
-        System.out.print("<Number of ADWIN executions: " + (adwin.getAdwinCount() - adwinCount) + "> ");
+        System.out.print("<Number of Adwin cut checks performed: " + (adwin.getAdwinCount() - adwinCount) + "> ");
         adwinCount = adwin.getAdwinCount();
         numTotalInvocations += numInvocations;
         if (warmup && numTotalInvocations == warmupIterations * batchSize) {
