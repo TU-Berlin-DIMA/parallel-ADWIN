@@ -19,11 +19,13 @@ Thus, we explore parallel adaptive windowing to provide scalable concept drift d
 
 - BibTeX citation:
 ```
-@inproceedings{grulich2018parallelADWIN,
-  title={Scalable Detection of Concept Drifts on Data Streams with Parallel Adaptive Windowing},
-  author={Grulich, Philipp Marian and Saitenmacher, René and Traub, Jonas and Breß, Sebastian and Rabl, Tilmann and Markl, Volker},
-  booktitle={21th International Conference on Extending Database Technology (EDBT)},
-  year={2018}
+@inproceedings{traub2018scotty,
+  title={Scotty: Efficient Window Aggregation for out-of-order Stream Processing},
+  author={Traub, Jonas and Grulich, Philipp M. and Cuellar, Alejandro Rodriguez and Bre{\ss}, Sebastian and Katsifodimos, Asterios and Rabl, Tilmann and Markl, Volker},
+  booktitle={2018 IEEE 34th International Conference on Data Engineering (ICDE)},
+  pages={1300--1303},
+  year={2018},
+  organization={IEEE}
 }
 ```
 
